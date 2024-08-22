@@ -5,9 +5,9 @@ import SideBar from './components/sidebar'
 
 export default function Home() {
   return (
-    <main>
-      <NavBar/>
+    <main className="flex flex-row box-border">
       <SideBar/>
+      <NavBar/>
     </main>
   );
 }

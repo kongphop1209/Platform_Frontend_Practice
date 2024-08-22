@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
 
 const navbar = () => {
   return (
-    <div>navbar</div>
-  )
-}
+    <div className="flex-1 h-screen bg-blue-100">
+      <div className="flex justify-center items-center bg-red-500 h-12">
+        <h1 className=" text-white size-10 w-auto h-auto cursor-pointer">
+          Sport Complex
+        </h1>
+      </div>
+    </div>
+  );
+};
 
-export default navbar
+export default navbar;
