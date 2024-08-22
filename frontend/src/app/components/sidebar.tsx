@@ -12,16 +12,46 @@ const sidebar = () => {
           <li className="">4</li>
         </ul>
       </span>
-      <div className="mt-5">
-        <ul className="flex flex-col border-black cursor-pointer">
-          <li className="border-b border-t  ps-5 hover:bg-slate-300 border-s-4 py-3">Rules</li>
-          <li className="border-b  ps-5 hover:bg-slate-300 border-s-4 py-3">Badminton</li>
-          <li className="border-b  ps-5 hover:bg-slate-300 border-s-4 py-3">Football</li>
-          <li className="border-b  ps-5 hover:bg-slate-300 border-s-4 py-3">Basketball</li>
-          <li className="border-b  ps-5 hover:bg-slate-300 border-s-4 py-3">Swimming</li>
-          <li className="border-b  ps-5 hover:bg-slate-300 border-s-4 py-3">Fitness</li>
+      <nav className="flex-1">
+        <ul className="flex flex-col space-y-4 text-gray-800">
+          <li className="flex items-center px-5 py-3 border-l-4 border-transparent hover:bg-gray-100 hover:border-indigo-500 transition-all duration-300 cursor-pointer">
+            <span className="mr-3 text-indigo-600">
+              <FaRunning />
+            </span>
+            <span>Rules</span>
+          </li>
+          <li className="flex items-center px-5 py-3 border-l-4 border-transparent hover:bg-gray-100 hover:border-indigo-500 transition-all duration-300 cursor-pointer">
+            <span className="mr-3 text-indigo-600">
+              <FaDumbbell />
+            </span>
+            <span>Fitness</span>
+          </li>
+          <li className="flex items-center px-5 py-3 border-l-4 border-transparent hover:bg-gray-100 hover:border-indigo-500 transition-all duration-300 cursor-pointer">
+            <span className="mr-3 text-indigo-600">
+              <FaFutbol />
+            </span>
+            <span>Football</span>
+          </li>
+          <li className="flex items-center px-5 py-3 border-l-4 border-transparent hover:bg-gray-100 hover:border-indigo-500 transition-all duration-300 cursor-pointer">
+            <span className="mr-3 text-indigo-600">
+              <FaBasketballBall />
+            </span>
+            <span>Basketball</span>
+          </li>
+          <li className="flex items-center px-5 py-3 border-l-4 border-transparent hover:bg-gray-100 hover:border-indigo-500 transition-all duration-300 cursor-pointer">
+            <span className="mr-3 text-indigo-600">
+              <FaSwimmer />
+            </span>
+            <span>Swimming</span>
+          </li>
+          <li className="flex items-center px-5 py-3 border-l-4 border-transparent hover:bg-gray-100 hover:border-indigo-500 transition-all duration-300 cursor-pointer">
+            <span className="mr-3 text-indigo-600">
+              <FaSwimmer />
+            </span>
+            <span>Badminton</span>
+          </li>
         </ul>
-      </div>
+      </nav>
     </div>
   );
 };
