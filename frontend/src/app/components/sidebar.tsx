@@ -13,13 +13,13 @@ const sidebar = () => {
         </ul>
       </span>
       <div className="mt-5">
-        <ul className="flex flex-col cursor-pointer">
-          <li className="border-b border-t border-black ps-5 hover:bg-slate-500 py-3">Rules</li>
-          <li className="border-b border-black ps-5 hover:bg-slate-500 py-3">Badminton</li>
-          <li className="border-b border-black ps-5 hover:bg-slate-500 py-3">Football</li>
-          <li className="border-b border-black ps-5 hover:bg-slate-500 py-3">Basketball</li>
-          <li className="border-b border-black ps-5 hover:bg-slate-500 py-3">Swimming</li>
-          <li className="border-b border-black ps-5 hover:bg-slate-500 py-3">Fitness</li>
+        <ul className="flex flex-col border-black cursor-pointer">
+          <li className="border-b border-t  ps-5 hover:bg-slate-300 border-s-4 py-3">Rules</li>
+          <li className="border-b  ps-5 hover:bg-slate-300 border-s-4 py-3">Badminton</li>
+          <li className="border-b  ps-5 hover:bg-slate-300 border-s-4 py-3">Football</li>
+          <li className="border-b  ps-5 hover:bg-slate-300 border-s-4 py-3">Basketball</li>
+          <li className="border-b  ps-5 hover:bg-slate-300 border-s-4 py-3">Swimming</li>
+          <li className="border-b  ps-5 hover:bg-slate-300 border-s-4 py-3">Fitness</li>
         </ul>
       </div>
     </div>
