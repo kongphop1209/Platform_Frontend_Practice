@@ -1,11 +1,13 @@
 import { Main } from "next/document";
 import Image from "next/image";
-import Board from './pages/board'
+import NavBar from './components/navbar'
+import SideBar from './components/sidebar'
 
 export default function Home() {
   return (
-    <>
-      <Board/>
-    </>
+    <main>
+      <NavBar/>
+      <SideBar/>
+    </main>
   );
 }
