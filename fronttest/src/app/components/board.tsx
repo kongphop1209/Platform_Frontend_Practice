@@ -4,7 +4,7 @@ import React from 'react'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import SearchBar from './SearchBar'
-import Users from './Users'
+import UsersInfo from './UsersInfo'
 
 const Board: React.FC = () => {
   return (
@@ -19,7 +19,7 @@ const Board: React.FC = () => {
         <div>
           <SearchBar/>
         </div>
-        <Users/>
+        <UsersInfo/>
     </div>
   )
 }
