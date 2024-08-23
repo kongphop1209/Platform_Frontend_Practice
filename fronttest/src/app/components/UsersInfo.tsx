@@ -11,7 +11,7 @@ const UsersInfo = () => {
             <li className="flex-none w-1/5 flex justify-start">Name</li>
             <li className="flex-none w-1/3 flex justify-start">Email</li>
           </ul>
-        </span>
+        </span> 
       </div>
       <div className="bg-white mx-5 my-2 h-full">
         <span>
@@ -27,8 +27,8 @@ const UsersInfo = () => {
         </span>
       </div>
       <div>
-        <button className="items-center mx-5 my-2 px-2 bg-black text-white rounded-md text-base">
-          1
+        <button className="items-center mx-5 my-2 px-2 bg-white border border-blue-400 text-black rounded-md text-base">
+          <b className="text-sm">1</b>
         </button>
       </div>
     </div>
