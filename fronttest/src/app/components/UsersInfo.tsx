@@ -7,8 +7,8 @@ const UsersInfo = () => {
         <span>
           <ul className="flex flex-row mx-8 text-white">
             <li className="flex-none w-1/12 flex justify-start">ID</li>
-            <li className="flex-none w-1/4 flex justify-start">Username</li>
-            <li className="flex-none w-1/4 flex justify-start">Name</li>
+            <li className="flex-none w-1/5 flex justify-start">Username</li>
+            <li className="flex-none w-1/5 flex justify-start">Name</li>
             <li className="flex-none w-1/3 flex justify-start">Email</li>
           </ul>
         </span>
@@ -17,9 +17,12 @@ const UsersInfo = () => {
         <span>
           <ul className="flex flex-row mx-8 text-white">
             <li className="flex-none w-1/12 flex justify-start">//</li>
-            <li className="flex-none w-1/4 flex justify-start">//</li>
-            <li className="flex-none w-1/4 flex justify-start">//</li>
+            <li className="flex-none w-1/5 flex justify-start">//</li>
+            <li className="flex-none w-1/5 flex justify-start">//</li>
             <li className="flex-none w-1/3 flex justify-start">//</li>
+            <li className="flex-none w-1/12 flex justify-start">//</li>
+            <li className="flex-none w-1/12 flex justify-start">//</li>
+            <li className="flex-none w-1/12 flex justify-start">//</li>
           </ul>
         </span>
       </div>
