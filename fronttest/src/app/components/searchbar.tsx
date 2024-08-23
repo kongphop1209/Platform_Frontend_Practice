@@ -15,7 +15,7 @@ const SearchBar: React.FC = () => {
   };
 
   return (
-    <form onSubmit={handleSearch} className="flex items-center justify-center mt-4 flex-1">
+    <form onSubmit={handleSearch} className="flex items-center justify-center mt-4 flex-1 ml-5">
       <div className="inline-flex flex-1 max-w-lg">
         <input
           type="text"
