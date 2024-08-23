@@ -1,9 +1,9 @@
 import React from 'react'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import SearchBar from './searchbar'
+import SearchBar from './SearchBar'
 
-const board: React.FC = () => {
+const Board: React.FC = () => {
   return (
     
     <div className='flex flex-col justify-start w-1/2 h-1/2 bg-slate-200 border-blue-200 border-y border-x rounded-lg'>
@@ -18,4 +18,4 @@ const board: React.FC = () => {
   )
 }
 
-export default board
+export default Board
