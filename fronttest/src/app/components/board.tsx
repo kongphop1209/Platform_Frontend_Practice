@@ -5,6 +5,7 @@ import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import SearchBar from './SearchBar'
 import UsersInfo from './UsersInfo'
+import AddNewUser from './AddNewUser'
 
 const Board: React.FC = () => {
   return (
@@ -16,8 +17,9 @@ const Board: React.FC = () => {
               User Management
             </p>
         </div>
-        <div>
+        <div className='flex items-center'>
           <SearchBar/>
+          <AddNewUser/>
         </div>
         <UsersInfo/>
     </div>

@@ -5,7 +5,7 @@ const UsersInfo = () => {
     <div className='w-full mt-4'>
         <div className='bg-blue-400 mx-5 py-2'>
           <span>
-            <ul className='flex flex-row mx-8'>
+            <ul className='flex flex-row mx-8 text-white'>
               <li className='flex-none w-1/12 flex justify-start'>ID</li>
               <li className='flex-none w-1/4 flex justify-start'>Username</li>
               <li className='flex-none w-1/4 flex justify-start'>Name</li>
